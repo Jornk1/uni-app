@@ -1,0 +1,41 @@
+.search-icon{
+	width: 40upx;
+	height: 40upx;
+}
+.search-text{
+	background-color: #eaeaea;
+	font-size: 14px;
+	width: 650upx;
+	height: 60upx;
+}
+.search-block{
+	position: fixed;
+	top: 100upx;
+	z-index: 999;
+	display: flex;
+	flex-direction: row;
+	padding: 0upx 20upx 20upx;
+	background-color: #f8f8f8;
+}
+.search-icon-wapper{
+	display: flex;
+	padding: 0 10upx;
+	flex-direction: column;
+	justify-content: center;
+	background: #eaeaea;
+}
+/* 预告片列表 */
+.poster{
+	width: 200upx;
+	height: 270upx;
+}
+.movie-list{
+	display: flex;
+	padding: 100upx 10upx 0;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+.movie-wapper{
+	padding: 10upx 20upx;
+}
